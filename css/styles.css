@@ -1,0 +1,263 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+p {
+    font-family: 'century gothic', 'Josefin Sans', sans-serif;
+    color: #717171;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #F48383;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 1px solid #F48383;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3C3C3C;
+    margin-bottom: 0px;
+}
+
+.school-title {
+    color: #F48383;
+}
+
+.location {
+    color: #A0A0A0;
+    margin-bottom: 5px;
+}
+
+#left {
+    text-align: right;
+}
+
+#header {
+    height: 100vh;
+    background-color: #F48383;
+    position: relative;
+}
+
+#header p {
+    color: #ffffff;
+}
+
+#header-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#logo {
+    width: 90px;
+}
+
+#arrow {
+    width: 25px;
+}
+
+#lower-text {
+    position: relative;
+    top: 70%;
+    transform: translateY(-70%);
+}
+
+#lower-text i {
+    color: #ffffff;
+}
+
+.hover-image img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-image:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.portfolio-images {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#portfolio {
+    padding: 60px 0px;
+}
+
+#about {
+    background-color: #EBEBEB;
+    padding: 60px 0px;
+}
+
+#about h2 {
+    color: #4E4E4E;
+    border-bottom: 1px solid #4E4E4E;
+}
+
+.marker {
+    color: #F48383;
+    margin-right: 5px;
+}
+
+#education {
+    padding: 60px 0px;
+}
+
+#intrests {
+    background-color: rgb(244,131,131, 0.5);
+    padding: 60px 0px;
+}
+
+#intrests h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+#intrests p {
+    color: #ffffff;
+}
+
+.footer-icon {
+    color: #F48383;
+    margin: 8px 3px;
+    font-size: 18px;
+}
+
+.footer-icon:hover {
+    color: #A0A0A0;
+}
+
+#footer-text {
+    font-size: 12px;
+    color: #A0A0A0;
+    padding: 0 10px;
+}
+
+#footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background-color: rgb(244,131,131, 0.5);*/
+}
+
+#email-icon {
+    color: #F48383;
+}
+
+.skills {
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+.bar {
+    height: 13px;
+    width: 100%;
+    background-color: white;
+}
+
+.color {
+    background-color: #F48383;
+}
+
+.skill-container {
+    margin-top: 7px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.carousel {
+    padding: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-heading {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.modal-text {
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.github-link {
+    color: #F48383;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.github-link:hover {
+    color: #A0A0A0;
+}
+
+.github-icon {
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #left {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    #education {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #about {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #skills {
+        margin-bottom: 25px;
+    }
+} 
+
+@media only screen and (max-width: 575px) {
+    .portfolio-row {
+        padding: 0 20px;
+    }
+} 
